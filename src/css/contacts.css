@@ -12,10 +12,9 @@
 
 .text-contact-us {
     margin-bottom: 28px;
+    width: 279px;
 }
 
-.input-wrap {
-}
 .input-contact {
     border: 1px solid rgba(12, 12, 12, 0.15);
     border-radius: 12px;
@@ -23,6 +22,11 @@
     width: 279px;
     height: 42px;
     margin-bottom: 18px;
+    background: #f3f3f3;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    color: #0c0c0c;
 }
 
 .contact-area {
@@ -31,6 +35,7 @@
     padding: 12px 136px 54px 14px;
     width: 279px;
     height: 84px;
+    background: #f3f3f3;
 }
 
 .button-send {
@@ -47,15 +52,10 @@
     line-height: 1.28;
     text-align: center;
     color: #fbfbfb;
+    margin-left: auto;
     margin-top: 28px;
 }
 
-.contact-image {
-    border-radius: 30px;
-    width: 335px;
-    height: 512px;
-    background: url("path_to_image");
-}
 
 
 

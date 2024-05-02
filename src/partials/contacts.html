@@ -1,39 +1,38 @@
-<div class="container section">
+<div class="section container">
   <h2 class="section-title">Contact Us</h2>
   <div class="inform-contact-us">
     <p class="text-contact-us">
       Please use the form below to contact us. Enter your name, email, phone,
       and message and we'll get back to you shortly.
     </p>
-    <form class="">
-      <div class="input-wrap">
-        <div class="wrap-for-label">
-          <label for="user-name" class="">Name</label>
-          <input
-            type="text"
-            class="input-contact"
-            name="user-name"
-            id="user-name"
-          />
-        </div>
-        <input
-          type="text"
-          class="input-contact"
-          name="user-email"
-          id="user-email"
-        />
-        <input
-          type="text"
-          class="input-contact"
-          name="user-tel"
-          id="user-tel"
-        />
-        <textarea name="" id="" class="contact-area"></textarea>
-      </div>
+    <form class="contact-form">
+      <!-- <label for="user-name" class="contact-label" -->
+      <!-- >Name -->
+      <input
+        type="text"
+        class="input-contact"
+        name="user-name"
+        id="user-name"
+        placeholder="Name"
+      />
+      <!-- </label> -->
+      <input
+        type="email"
+        class="input-contact"
+        name="user-email"
+        id="user-email"
+        placeholder="Email"
+      />
+      <input
+        type="tel"
+        class="input-contact"
+        name="user-tel"
+        id="user-tel"
+        placeholder="+380"
+      />
+      <textarea name="" id="" class="contact-area">Comment</textarea>
       <button type="button" class="button-send">Send</button>
     </form>
   </div>
-  <div class="contact-image">
-    <img src="" alt="watch-on-stone" />
-  </div>
+  <img src="" alt="" />
 </div>
