@@ -1,7 +1,7 @@
 .sale {
 }
 
-.section-tittle {
+.section-title {
   color: #0c0c0c;
   margin-bottom: 24px;
 }
@@ -57,11 +57,10 @@
 .description-tittle {
   font-weight: 600;
   font-size: 24px;
-  line-height: 1.17;
+  line-height: 1.16;
   letter-spacing: -0.02em;
   color: #fbfbfb;
   margin-bottom: 10px;
-  /* max-width: 279px; */
 }
 
 .description-tag {
@@ -112,10 +111,14 @@
 .description-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px;
+  gap: 8px;
 }
 
 .description-item {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 7px 11px;
+  max-height: 34px;
 }
 
 .description-item-text {
@@ -123,18 +126,12 @@
   font-size: 12px;
   line-height: 1.33;
   color: #fbfbfb;
-  border: 1px solid rgba(251, 251, 251, 0.2);
-  border-radius: 8px;
-  padding: 6px 10px;
 }
 
 /* ____________TABLET_____________ */
 
 @media screen and (min-width: 768px) {
-  .sale {
-  }
-
-  .section-tittle {
+  .section-title {
     margin-bottom: 40px;
   }
 
@@ -177,7 +174,7 @@
   .description-tittle {
     font-size: 32px;
     line-height: 1.12;
-    width: 436px;
+    max-width: 436px;
   }
 
   .description-price {
@@ -196,7 +193,6 @@
   }
 
   .description-list {
-    gap: 8px;
     width: 398px;
   }
 
@@ -221,13 +217,10 @@
   }
 
   .sale-description {
+    max-height: 558px;
   }
 
   .description-tittle {
     width: 389px;
-  }
-
-  .description-text {
-    width: 410px;
   }
 }
