@@ -102,7 +102,7 @@
 .description-item {
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 8px;
-  padding: 8px 12px;
+  padding: 7px 11px;
   max-height: 34px;
 }
 
@@ -137,10 +137,6 @@
     padding: 16px 18px;
     max-width: 132px;
     max-height: 132px;
-  }
-  .underchief-img {
-    width: 96px;
-    height: 100px;
   }
 
   .chief {
