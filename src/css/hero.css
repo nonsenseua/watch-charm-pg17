@@ -14,7 +14,7 @@
     }
 
     .hero-text-wrap {
-        margin-bottom: 20px;
+        margin-bottom: 28px;
     }
 
     .hero-title {
@@ -41,7 +41,16 @@
     }
 
     .hero-link-wrap {
-        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 28px;
+    }
+
+    .hero-pic-list {
+        display: flex;
+    }
+
+    .hero-pic-item {
     }
 
     .hero-link-skroll {
@@ -50,8 +59,26 @@
         font-weight: 500;
         line-height: 18px;
         letter-spacing: -0.28px;
+        color: #0C0C0C;
+        text-decoration-line: underline;
+        align-self: flex-end;
     }
+
     .hero-image {
+        max-width: 335px;
+        height: 366px;
+        border-radius: 30px;
+        background-color: #C4C4C4;
+        background-image: linear-gradient(rgba(12, 12, 12, 0.20), rgba(12, 12, 12, 0.20)), url(../img/section-hero/hero-background-mob-1x.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi){
+        .hero-image {
+            background-image: linear-gradient(rgba(12, 12, 12, 0.20), rgba(12, 12, 12, 0.20)), url(../img/section-hero/hero-background-mob-2x.jpeg);
+        }
     }
 }
 
@@ -71,7 +98,12 @@
         gap: 11px;
         margin-bottom: 40px;
     }
+
     .hero-text-wrap {
+    }
+
+    .hero-pic-list {
+        display: flex;
     }
 
     .hero-title {
@@ -96,15 +128,45 @@
         color: rgba(12, 12, 12, 0.70);
     }
 
+    .hero-link-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .hero-pic-list {
+        display: flex;
+    }
+    .hero-pic-item {
+    }
+
     .hero-link-skroll {
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
         line-height: 20px;
         letter-spacing: -0.4px;
+        color: #0C0C0C;
+        align-self: flex-end;
+        text-decoration-line: underline;
     }
 
     .hero-image {
+        max-width: 704px;
+        height: 520px;
+        border-radius: 50px;
+        background-color: #C4C4C4;
+        background-image: linear-gradient(rgba(12, 12, 12, 0.20), rgba(12, 12, 12, 0.20)), url(../img/section-hero/hero-background-tab-1x.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi){
+        .hero-image {
+            background-image: linear-gradient(rgba(12, 12, 12, 0.20), rgba(12, 12, 12, 0.20)), url(../img/section-hero/hero-background-tab-2x.jpeg);
+        }
     }
 }
 
@@ -120,7 +182,10 @@
     }
 
     .hero-desc-wrap {
+        gap: none;
+        justify-content: space-between;
     }
+
     .hero-text-wrap {
     }
     .hero-title {
@@ -134,5 +199,14 @@
     .hero-link-skroll {
     }
     .hero-image {
+        max-width: 1150px;
+        height: 500px;
+        background-image: linear-gradient(rgba(12, 12, 12, 0.20), rgba(12, 12, 12, 0.20)), url(../img/section-hero/hero-background-1x.jpeg);
+    }
+
+    @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi){
+        .hero-image {
+            background-image: linear-gradient(rgba(12, 12, 12, 0.20), rgba(12, 12, 12, 0.20)), url(../img/section-hero/hero-background-2x.jpeg);
+        }
     }
 }
