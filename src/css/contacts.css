@@ -1,0 +1,73 @@
+.inform-contact-us {
+    border-radius: 30px;
+    padding: 48px 28px;
+    width: 335px;
+    height: 512px;
+    background: #f3f3f3;
+}
+
+.section-title {
+    margin-bottom: 24px;
+}
+
+.text-contact-us {
+    margin-bottom: 28px;
+}
+
+.input-wrap {
+}
+.input-contact {
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    padding: 12px 226px 12px 14px;
+    width: 279px;
+    height: 42px;
+    margin-bottom: 18px;
+}
+
+.contact-area {
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    padding: 12px 136px 54px 14px;
+    width: 279px;
+    height: 84px;
+}
+
+.button-send {
+    border-radius: 16px;
+    padding: 12px 50px;
+    width: 134px;
+    height: 42px;
+    background: #3350e9;
+    border: none;
+    cursor: pointer;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    text-align: center;
+    color: #fbfbfb;
+    margin-top: 28px;
+}
+
+.contact-image {
+    border-radius: 30px;
+    width: 335px;
+    height: 512px;
+    background: url("path_to_image");
+}
+
+
+
+
+/* Tablet Media */
+
+@media screen and (min-width: 768px) {
+
+}
+
+/* Desktop Media */
+
+@media screen and (min-width: 1280px) {
+    
+}
