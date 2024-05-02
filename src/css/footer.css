@@ -1,3 +1,6 @@
+.icon-footer{
+  fill: #fff;
+}
 @media screen and (min-width: 320px) { {
     
 }
@@ -126,6 +129,9 @@ color: rgba(251, 251, 251, 0.5);
   }
   .tel-footer-container{
     margin: 0;
+  }
+  .slogan{
+ 
   }
   .footer-links{
     flex-wrap: nowrap;
