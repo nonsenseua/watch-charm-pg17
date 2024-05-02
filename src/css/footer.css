@@ -1,3 +1,6 @@
+@media screen and (min-width: 320px) { {
+    
+}
 .footer-content {
   font-family: 'Gilroy', sans-serif;
   border-radius: 30px;
@@ -105,4 +108,42 @@ line-height: 1.4;
 letter-spacing: -0.02em;
 text-align: right;
 color: rgba(251, 251, 251, 0.5);
+}
+}
+@media screen and (min-width: 768px) {
+    .footer-content {
+        border-radius: 30px;
+        padding: 40px 40px 28px 40px;
+        width: 704px;
+        height: 540px;
+}
+.logo-footer {
+    font-size: 20px;
+  }
+  .group{
+    display: flex;
+    justify-content: space-between;
+  }
+  .tel-footer-container{
+    margin: 0;
+  }
+  .footer-links{
+    flex-wrap: nowrap;
+    gap: 12px;
+    width: 400px;
+  }
+  .footer-links-items{
+font-size: 14px;
+line-height: 1.28;
+text-align: center;
+}
+.adres-links{
+    width: 624px;
+}
+.footer-adres{
+    width: 162px;
+    font-size: 14px;
+}
+.terms-footer{
+}
 }
