@@ -1,14 +1,3 @@
-@font-face {
-  font-family: 'Gilroy', sans-serif;
-  src: url(/src/fonts/Gilroy-Medium.woff);
-  src: url(/src/fonts/Gilroy-Medium.woff2);
-  src: url(/src/fonts/Gilroy-Regular.woff);
-  src: url(/src/fonts/Gilroy-Regular.woff2);
-  src: url(/src/fonts/Gilroy-Semibold.woff);
-  src: url(/src/fonts/Gilroy-Semibold.woff2);
-  font-style: normal;
-  font-weight: 500;
-}
 body {
   font-family: 'Gilroy', sans-serif;
   background-color: #fbfbfb;
