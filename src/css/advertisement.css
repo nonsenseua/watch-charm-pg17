@@ -1,5 +1,5 @@
 .advertisement-wrap {
-  background-image: url(../../img/section-advertisement/advertisement-mob-1x.png),
+  background-image: url(../img/section-advertisement/advertisement-mob-1x.png),
     linear-gradient(#0c0c0c, #0c0c0c);
   background-repeat: no-repeat;
   background-position: center;
@@ -10,7 +10,7 @@
 
 @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
   .advertisement-wrap {
-    background-image: url(../../img/section-advertisement/advertisement-mob-2x.png),
+    background-image: url(../img/section-advertisement/advertisement-mob-2x.png),
       linear-gradient(#0c0c0c, #0c0c0c);
   }
 }
@@ -29,14 +29,12 @@
 }
 
 .advertisement-btn-link {
-  display: block;
+  display: inline-block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
   text-align: center;
   color: #fbfbfb;
-  width: 160px;
-  height: 48px;
   padding: 15px 43px 15px 44px;
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
@@ -54,14 +52,14 @@
 
 @media screen and (min-width: 768px) {
   .advertisement-wrap {
-    background-image: url(../../img/section-advertisement/advertisement-tab-1x.png),
+    background-image: url(../img/section-advertisement/advertisement-tab-1x.png),
       linear-gradient(#0c0c0c, #0c0c0c);
     padding: 80px 64px;
   }
 
   @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
     .advertisement-wrap {
-      background-image: url(../../img/section-advertisement/advertisement-tab-2x.png),
+      background-image: url(../img/section-advertisement/advertisement-tab-2x.png),
         linear-gradient(#0c0c0c, #0c0c0c);
     }
   }
@@ -75,10 +73,9 @@
 
 @media screen and (min-width: 1280px) {
   .advertisement-wrap {
-    background-image: url(../../img/section-advertisement/advertisement-1x.png),
+    background-image: url(../img/section-advertisement/advertisement-1x.png),
       linear-gradient(#0c0c0c, #0c0c0c);
 
-    height: 298px;
     padding: 80px 80px;
     display: flex;
     gap: 140px;
@@ -87,13 +84,13 @@
 
   @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
     .advertisement-wrap {
-      background-image: url(../../img/section-advertisement/advertisement-2x.png),
+      background-image: url(../img/section-advertisement/advertisement-2x.png),
         linear-gradient(#0c0c0c, #0c0c0c);
     }
   }
 
   .advertisement-text {
-    align-self: center;
+    padding: 3px 0;
     margin: 0;
   }
 
