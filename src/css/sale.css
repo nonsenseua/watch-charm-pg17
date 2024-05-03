@@ -1,4 +1,4 @@
-.section-title {
+.sale-title {
   color: #0c0c0c;
   margin-bottom: 24px;
 }
@@ -115,7 +115,7 @@
 /* ____________TABLET_____________ */
 
 @media screen and (min-width: 768px) {
-  .section-title {
+  .sale-title {
     margin-bottom: 40px;
   }
 
@@ -141,9 +141,6 @@
   .chief {
     border-radius: 50px;
     padding: 80px 112px;
-  }
-
-  .chief-img {
   }
 
   .sale-description {
@@ -181,6 +178,8 @@
     line-height: 1.28;
   }
 }
+
+/* ____________________DESK_____________________ */
 
 @media screen and (min-width: 1280px) {
   .sale-content {
