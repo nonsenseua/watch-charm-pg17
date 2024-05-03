@@ -56,8 +56,8 @@
 }
 
 @media (min-device-pixel-ratio: 2),
-	(min-resolution: 192dpi),
-	(min-resolution: 2dppx){
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx){
         .mobile-menu{
             background-image: linear-gradient(rgba(12, 12, 12, 0.92),rgba(12, 12, 12, 0.92)), url(/img/header/menu-background-2x.jpeg);
         }
@@ -198,4 +198,5 @@ height: 34px;
         align-items: center;
     }
 }
+
 
