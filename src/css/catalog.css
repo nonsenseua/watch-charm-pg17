@@ -1,4 +1,4 @@
-.catalog-section {
+.section {
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
@@ -21,8 +21,9 @@
 }
 
 .catalog-item {
-  width: 335px;
-  height: 364px;
+  width: 100%;
+  /* width: 335px;
+  height: 364px; */
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   background-color: #f3f3f3;
@@ -78,13 +79,13 @@
 }
 
 @media screen and (min-width: 375px) {
-  .catalog-section {
+  .section {
     width: 375;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .catalog-section {
+  .section {
     width: 768px;
     padding: 0 32px;
   }
@@ -126,7 +127,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .catalog-section {
+  .section {
     width: 1280px;
     padding: 0 65px;
   }
