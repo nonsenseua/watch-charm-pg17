@@ -200,6 +200,28 @@ letter-spacing: -0.02em;
     width: 1216px;
     height: 400px;
   }
+  .footer-line{
+    width: 1136px;
+    margin-top: 28px;
+  }
   .slogan{
+    display: block;
+    margin: 0 auto;
+    width: 523px;
+    margin-top: -80px;
+  }
+  .adres-links{
+    width: 1136px;
+    height: 36px;;
+  }
+  .footer-links{
+    width: 505px;
+    height: 18px;
+    gap: 40px;
+  }
+  .terms-items{
+    /*
+    margin: 0 auto;*/
+    margin-top: 28px;
   }
 }
