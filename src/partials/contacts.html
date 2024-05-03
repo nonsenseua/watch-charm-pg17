@@ -15,12 +15,14 @@
         />
         <input
           type="email"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
           class="contact-input"
           name="user-email"
           placeholder="Email"
         />
         <input
           type="tel"
+          pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
           class="contact-input"
           name="user-tel"
           placeholder="+380"
@@ -30,10 +32,36 @@
       <button type="submit" class="contact-btn">Send</button>
     </div>
   </div>
-  <picture>
-    <source srcset="" />
-    <source srcset="" />
-    <!-- <source srcset="./img/section-contact/contact-1x.jpeg" /> -->
-    <img src="" alt="" class="contact-image" />
-  </picture>
+  <div class="container">
+    <picture>
+      <source
+        srcset="
+          ./img/section-contact/contact-1x.jpeg 1x,
+          ./img/section-contact/contact-2x.jpeg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./img/section-contact/contact-tab-1x.jpeg 1x,
+          ./img/section-contact/contact-tab-2x.jpeg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./img/section-contact/contact-mob-1x.jpeg 1x,
+          ./img/section-contact/contact-mob-2x.jpeg 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <img
+        src="./img/section-contact/contact-1x.jpeg"
+        alt="watch on stone"
+        class="contact-image"
+        width="335"
+        height="512"
+      />
+    </picture>
+  </div>
 </section>

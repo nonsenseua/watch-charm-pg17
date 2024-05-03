@@ -5,10 +5,6 @@
     background: #f3f3f3;
 }
 
-.section-title {
-    margin-bottom: 24px;
-}
-
 .text-contact-us {
     width: 100%;
 }
@@ -71,6 +67,7 @@
     border-radius: 30px;
     width: 335px;
     height: 512px;
+    margin-top: 20px;
 }
 
 
@@ -109,10 +106,33 @@
         width: 160px;
         height: 52px;
     }
+
+    .contact-image {
+        border-radius: 50px;
+        width: 704px;
+        height: 556px;
+    }
 }
 
 /* Desktop Media */
 
 @media screen and (min-width: 1280px) {
-    
+    .section {
+        display: flex;
+    }
+
+    .inform-contact-us {
+        width: 580px;
+        padding: 50px 60px;
+        width: 580px;
+        height: 556px;
+    }
+
+    .contact-input {
+    }
+
+    .contact-image {
+        width: 530px;
+        height: 556px;
+    }    
 }
