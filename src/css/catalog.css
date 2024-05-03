@@ -1,10 +1,7 @@
 .section {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 20px;
 }
 
-.catalog-title {
+.section-title {
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
@@ -28,7 +25,6 @@
   border-radius: 30px;
   background-color: #f3f3f3;
   padding: 24px 28px;
-  margin: 0 auto;
 }
 .catalog-mob-none {
   display: none;
@@ -90,7 +86,7 @@
     padding: 0 32px;
   }
 
-  .catalog-title {
+  .section-title {
     font-size: 48px;
     line-height: 0.92;
     margin-bottom: 40px;
@@ -100,6 +96,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 32px 16px;
+    margin-bottom: 0;
   }
 
   .catalog-item {
@@ -132,7 +129,7 @@
     padding: 0 65px;
   }
 
-  .catalog-list {
+  .section-title {
     gap: 32px 23px;
   }
 
