@@ -133,8 +133,10 @@ color: rgba(251, 251, 251, 0.5);
   .footer-content {
     border-radius: 30px;
     padding: 40px 40px 28px 40px;
-    width: 704px;
-    height: 540px;
+}
+.contacts-container{
+  display: flex;
+  justify-content: space-between;
 }
 .logo-footer {
     font-size: 20px;
@@ -142,6 +144,7 @@ color: rgba(251, 251, 251, 0.5);
   .group{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
   }
   .tel-footer-container{
     margin: 0;
@@ -152,7 +155,7 @@ color: rgba(251, 251, 251, 0.5);
     line-height: 1.14;
     letter-spacing: -0.02em;
     text-align: center;
-    margin: 86px 50px;
+    margin: 86px 50px 0;
   }
   .footer-links{
     flex-wrap: nowrap;
@@ -189,7 +192,7 @@ text-align: center;
   align-items: center;
   text-align: center;
   align-content: center;
-  margin-top: 28px;
+  padding-top: 28px;
 }
 .copyright-footer{
 font-size: 14px;
@@ -205,6 +208,14 @@ letter-spacing: -0.02em;
 .terms-footer{
   padding: 0;
 }
+.tel-footer{
+font-size: 14px;
+line-height: 1.28;
+}
+.tel-footer-container{
+  width: 160px;
+  height: 48px;
+}
 }
 @media screen and (min-width: 1280px) {
   .footer-content{
@@ -216,11 +227,27 @@ letter-spacing: -0.02em;
   .footer-line{
     margin-top: 28px;
   }
+  .group{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 126px;
+  }
   .slogan{
-    display: block;
     margin: 0 auto;
     width: 523px;
-    margin-top: -80px;
+  }
+  .contacts-container{
+    display: flex;
+  }
+  .tel-footer-container{
+    width: 160px;
+    height: 48px;
+    order: 999;
+  }
+  .tel-footer{
+font-size: 14px;
+line-height: 1.28;
   }
   .adres-links{
     width: 1136px;
