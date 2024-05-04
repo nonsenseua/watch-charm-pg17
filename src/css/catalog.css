@@ -2,11 +2,6 @@
 }
 
 .section-title {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 1;
-  letter-spacing: -0.02em;
-  color: #0c0c0c;
   margin-bottom: 24px;
 }
 
@@ -76,19 +71,17 @@
 
 @media screen and (min-width: 375px) {
   .section {
-    width: 375;
+    /* width: 375px; */
   }
 }
 
 @media screen and (min-width: 768px) {
   .section {
-    width: 768px;
-    padding: 0 32px;
+    /* width: 768px;
+    padding: 0 32px; */
   }
 
   .section-title {
-    font-size: 48px;
-    line-height: 0.92;
     margin-bottom: 40px;
   }
 
@@ -125,8 +118,8 @@
 
 @media screen and (min-width: 1280px) {
   .section {
-    width: 1280px;
-    padding: 0 65px;
+    /* width: 1280px;
+    padding: 0 65px; */
   }
 
   .section-title {
