@@ -114,6 +114,8 @@ padding: 8px;
 width: 34px;
 height: 34px;
 }
+
+
 .icon-list-box{
     position: absolute;
     bottom: 24px;
@@ -138,8 +140,19 @@ height: 34px;
 
 
 @media (min-width: 768px){
+    .header{
+        padding-bottom: 26px;
+        padding-top: 26px;
+        
+    }
     .mobile-menu{
         width: 330px;
+    }
+    .icon-social-mob{
+        opacity: 0.8;
+    }
+    .icon-social-mob:focus{
+        opacity: 0;
     }
 }
 @media (min-width: 1280px){
