@@ -33,9 +33,7 @@ padding: 8px;
 width: 34px;
     height: 34px;
 }
-.soc-media-links{
-    
-}
+
 .tel-footer-container {
   display: block;
   border: 1px solid rgba(251, 251, 251, 0.2);
@@ -254,10 +252,7 @@ line-height: 1.28;
     height: 18px;
     gap: 40px;
   }
-  .terms-items{
-    /*
-    margin: 0 auto;*/
-  }
+
   .logo-footer{
     order: 1;
   }
