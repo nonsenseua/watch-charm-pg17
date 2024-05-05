@@ -51,7 +51,7 @@
 .contact-area {
     border: 1px solid rgba(12, 12, 12, 0.15);
     border-radius: 12px;
-    padding: 12px 136px 54px 14px;
+    padding: 14px 12px;
     width: 279px;
     height: 84px;
     overflow: hidden;
@@ -97,7 +97,7 @@
 
 .contact-btn:hover,
 .contact-btn:focus {
-    background-color: #3350e9;
+    background-color: #1f3cd4;
 }
 
 .contact-image {
