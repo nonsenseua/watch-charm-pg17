@@ -14,7 +14,7 @@
     />
     
     <script type="module" crossorigin src="/watch-charm-pg17/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/watch-charm-pg17/assets/index-f231fc2d.css">
+    <link rel="stylesheet" href="/watch-charm-pg17/assets/index-499ee90b.css">
   </head>
   <body>
     <header class="header">
@@ -22,12 +22,12 @@
         <a href="./index.html" class="logo-brand-header">watchcharm</a>
         <nav class="nav">
             <ul class="nav-menu">
-                <li id="Home"><a href="./index.html" class="nav-menu-item current">Home</a></li>
-                <li id="About-Us"><a href="" class="nav-menu-item">About Us</a></li>
-                <li id="Catalog"><a href="" class="nav-menu-item">Catalog</a></li>
-                <li id="Sale"><a href="" class="nav-menu-item">Sale</a></li>
-                <li id="Reviews"><a href="" class="nav-menu-item">Reviews</a></li>
-                <li id="Contact-Us"><a href="" class="nav-menu-item">Contact Us</a></li>
+                <li><a href="./index.html" class="nav-menu-item current">Home</a></li>
+                <li><a href="#about-us" class="nav-menu-item">About Us</a></li>
+                <li><a href="#catalog" class="nav-menu-item">Catalog</a></li>
+                <li><a href="#sale" class="nav-menu-item">Sale</a></li>
+                <li><a href="#reviews" class="nav-menu-item">Reviews</a></li>
+                <li><a href="#contact-us" class="nav-menu-item">Contact Us</a></li>
             </ul>
         </nav>
         <address class="address">
@@ -80,11 +80,11 @@
         </button>
         <ul class="mob-nav-menu">
             <li id="Home"><a href="./index.html" class="mob-nav-menu-item mob-current">Home</a></li>
-                <li id="About Us"><a href="" class="mob-nav-menu-item">About Us</a></li>
-                <li id="Catalog"><a href="" class="mob-nav-menu-item">Catalog</a></li>
-                <li id="Sale"><a href="" class="mob-nav-menu-item">Sale</a></li>
-                <li id="Reviews"><a href="" class="mob-nav-menu-item">Reviews</a></li>
-                <li id="Contact Us"><a href="" class="mob-nav-menu-item">Contact Us</a></li>
+                <li><a href="#about-us" class="mob-nav-menu-item">About Us</a></li>
+                <li><a href="#catalog" class="mob-nav-menu-item">Catalog</a></li>
+                <li><a href="#sale" class="mob-nav-menu-item">Sale</a></li>
+                <li><a href="#reviews" class="mob-nav-menu-item">Reviews</a></li>
+                <li><a href="#contact-us" class="mob-nav-menu-item">Contact Us</a></li>
         </ul>
 
         <div class="icon-list-box">
@@ -143,19 +143,21 @@
                 <a class="hero-link-skroll" href="#footer">Scroll down</a>
             </div>
         </div>
-            <picture class="hero-image-wrap">
-                    <source class="hero-image" srcset="/watch-charm-pg17/assets/hero-background-1x-c8c26b03.jpeg 1x, /watch-charm-pg17/assets/hero-background-2x-61fdc89e.jpeg 2x" 
-                    media="(min-width: 1280px)">
-                    <source class="hero-image" srcset="/watch-charm-pg17/assets/hero-background-tab-1x-cfac1d5e.jpeg 1x, /watch-charm-pg17/assets/hero-background-tab-2x-a9e77cbb.jpeg 2x"
-                    media="(min-width: 768px)">
-                    <source class="hero-image" srcset="/watch-charm-pg17/assets/hero-background-mob-1x-9b5a5a92.jpeg 1x, /watch-charm-pg17/assets/hero-background-mob-2x-912743ed.jpeg 2x"
-                    media="(max-width: 767px)">
-                    <img class="hero-image" src="/watch-charm-pg17/assets/hero-background-1x-c8c26b03.jpeg" alt="watch">
-                    <span class="hero-grad"></span>
-            </picture>
+            <div class="hero-image-gradient">
+                <div class="hero-grad"></div>
+                <picture class="hero-image-wrap">
+                        <source class="hero-image" srcset="/watch-charm-pg17/assets/hero-background-1x-c8c26b03.jpeg 1x, /watch-charm-pg17/assets/hero-background-2x-61fdc89e.jpeg 2x" 
+                        media="(min-width: 1280px)">
+                        <source class="hero-image" srcset="/watch-charm-pg17/assets/hero-background-tab-1x-cfac1d5e.jpeg 1x, /watch-charm-pg17/assets/hero-background-tab-2x-a9e77cbb.jpeg 2x"
+                        media="(min-width: 768px)">
+                        <source class="hero-image" srcset="/watch-charm-pg17/assets/hero-background-mob-1x-9b5a5a92.jpeg 1x, /watch-charm-pg17/assets/hero-background-mob-2x-912743ed.jpeg 2x"
+                        media="(max-width: 767px)">
+                        <img class="hero-image" src="/watch-charm-pg17/assets/hero-background-1x-c8c26b03.jpeg" alt="watch">
+                </picture>
+            </div>
     </div>
 </section>
-      <section class="section">
+      <section class="section" id="about-us">
   <div class="container about-container">
     <div class="about-text">
       <h2 class="section-title about-title">About Us</h2>
@@ -341,13 +343,13 @@
         Choose <span class="advertisement-accent">your story</span>, making
         every moment unique. Time is your style, and we reveal it.
       </p>
-      <!-- Replace #contact anchor with an actual id -->
-      <a class="advertisement-btn-link" href="#contact">Contact Us</a>
+      <a class="advertisement-btn-link" href="#contact-us">Contact Us</a>
     </div>
   </div>
 </section>
 
-      <section id="Sale" class="section">
+      
+<section class="section" id="sale">
   <div class="container">
     <h2 class="section-title sale-title">Sale</h2>
     <div class="sale-content">
@@ -446,7 +448,7 @@
   </div>
 </section>
 
-      <section class="section">
+      <section class="section" id="reviews">
   <div class="container">
     <h2 class="section-title">Reviews</h2>
     <ul class="review-list">
@@ -493,7 +495,7 @@
   </div>
 </section>
 
-      <section class="section">
+      <section class="section" id="contact-us">
   <div class="container">
     <h2 class="section-title">Contact Us</h2>
     <div class="contact-us-box">
@@ -555,12 +557,12 @@
 </section>
 
     </main>
-    <footer class="section-footer">
+    <footer class="section-footer" id="footer">
   <div class="container">
     <div class="footer-content">
       <div class="group">
         <div class="logo-footer">
-          <a href="#" class="logo-link">watchcharm</a> 
+          <a href="./index.html" class="logo-link">watchcharm</a> 
           <ul class="soc-media">
             <li class="soc-media-items">
               <a
@@ -600,7 +602,7 @@
       <div class="adres-links">
         <ul class="footer-links">
           <li class="footer-items">
-            <a href="#home" class="footer-links-items">Home</a>
+            <a href="./index.html" class="footer-links-items">Home</a>
           </li>
           <li class="footer-items">
             <a href="#about-us" class="footer-links-items">About Us</a>
@@ -612,7 +614,7 @@
             <a href="#sale" class="footer-links-items">Sale</a>
           </li>
           <li class="footer-items">
-            <a href="#revievs" class="footer-links-items">Reviews</a>
+            <a href="#reviews" class="footer-links-items">Reviews</a>
           </li>
           <li class="footer-items">
             <a href="#contact-us" class="footer-links-items">Contact Us</a>
