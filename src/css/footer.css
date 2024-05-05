@@ -68,9 +68,8 @@ padding-top: 14px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 147px;
-    height: 64px;
     gap: 8px 16px;
+    max-width: 147px;
 }
 .footer-links-items{
 font-weight: 500;
@@ -79,10 +78,10 @@ line-height: 1.33;
 text-align: center;
 }
 .footer-adres {
-    width: 83px;
 font-weight: 500;
 font-size: 12px;
 line-height: 1.33;
+max-width: 83px;
 }
 .adres-links{
     display: flex;
@@ -134,15 +133,13 @@ color: rgba(251, 251, 251, 0.5);
     border-radius: 30px;
     padding: 40px 40px 28px 40px;
 }
-.contacts-container{
-  display: flex;
-  justify-content: space-between;
-}
 .logo-footer {
+  margin-bottom: 0;
     font-size: 20px;
   }
   .group{
-    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 100px;
   }
@@ -160,19 +157,20 @@ color: rgba(251, 251, 251, 0.5);
   .footer-links{
     flex-wrap: nowrap;
     gap: 19px;
-    width: 400px;
+    max-width: 400px;
+  }
+  .adres-links{
+    margin-bottom: 28px;
   }
   .footer-links-items{
 font-size: 14px;
 line-height: 1.28;
 text-align: center;
 }
-.adres-links{
-    width: 624px;
-}
 .footer-adres{
-    width: 162px;
+    max-width: 162px;
     font-size: 14px;
+    line-height: 1.2;
 }
 .footer-line {
   height: 2px;
@@ -221,21 +219,20 @@ line-height: 1.28;
   .footer-content{
     border-radius: 30px;
     padding: 40px 40px 28px 40px;
-    width: 1216px;
-    height: 400px;
   }
   .footer-line{
     margin-top: 28px;
   }
-  .group{
+   .group{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     margin-bottom: 126px;
-  }
+  } 
   .slogan{
     margin: 0 auto;
-    width: 523px;
+    max-width: 523px;
+    order: 2;
   }
   .contacts-container{
     display: flex;
@@ -243,24 +240,25 @@ line-height: 1.28;
   .tel-footer-container{
     width: 160px;
     height: 48px;
-    order: 999;
+    order: 3;
   }
   .tel-footer{
 font-size: 14px;
 line-height: 1.28;
   }
   .adres-links{
-    width: 1136px;
-    height: 36px;;
+    justify-content: space-between;
   }
   .footer-links{
-    width: 505px;
+    max-width: 505px;
     height: 18px;
     gap: 40px;
   }
   .terms-items{
     /*
     margin: 0 auto;*/
-    margin-top: 28px;
+  }
+  .logo-footer{
+    order: 1;
   }
 }
