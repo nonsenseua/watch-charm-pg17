@@ -32,11 +32,12 @@
     height: 42px;
     background: #f3f3f3;
     margin-bottom: 18px;
+    outline: transparent;
 }
 
 .contact-input:hover,
 .contact-input:focus {
-    color: #3350e9;
+    border-color: #3350e9;
 }
 
 .contact-input::placeholder {
@@ -62,6 +63,7 @@
     font-size: 14px;
     line-height: 1.29;
     color: #0c0c0c;
+    outline: transparent;
 }
 
 .contact-area::placeholder {
@@ -71,6 +73,11 @@
     line-height: 1.29;
     color: #0c0c0c;
 
+}
+
+.contact-area:hover,
+.contact-area:focus {
+    border-color: #3350e9;
 }
 
 .contact-btn {
@@ -90,7 +97,7 @@
 
 .contact-btn:hover,
 .contact-btn:focus {
-    color: #3350e9;
+    background-color: #3350e9;
 }
 
 .contact-image {
