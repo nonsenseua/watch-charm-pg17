@@ -14,7 +14,7 @@
     />
     
     <script type="module" crossorigin src="/watch-charm-pg17/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/watch-charm-pg17/assets/index-81b23afd.css">
+    <link rel="stylesheet" href="/watch-charm-pg17/assets/index-5ae1bfd9.css">
   </head>
   <body>
     <header class="header">
@@ -505,27 +505,38 @@
           phone, and message and we'll get back to you shortly.
         </p>
         <form class="contact-form">
+          <label for="" class="contact-lab"></label>
           <input
             type="text"
             class="contact-input"
             name="user-name"
             placeholder="Name"
+            required
           />
+          <label for="" class="contact-lab"></label>
           <input
             type="email"
             pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
             class="contact-input"
             name="user-email"
             placeholder="Email"
+            required
           />
+          <label for="" class="contact-lab"></label>
           <input
             type="tel"
             pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
             class="contact-input"
             name="user-tel"
             placeholder="+380"
+            required
           />
-          <textarea name="" id="" class="contact-area">Comment</textarea>
+          <textarea
+            name="user-comment"
+            id="user-comment"
+            class="contact-area"
+            placeholder="Comment"
+          ></textarea>
         </form>
         <button type="submit" class="contact-btn">Send</button>
       </div>
