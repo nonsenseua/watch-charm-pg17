@@ -34,6 +34,11 @@
     margin-bottom: 18px;
 }
 
+.contact-input:hover,
+.contact-input:focus {
+    color: #3350e9;
+}
+
 .contact-input::placeholder {
     font-family: 'Gilroy', sans-serif;
     font-weight: 400;
