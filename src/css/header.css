@@ -184,6 +184,7 @@ height: 34px;
         line-height: 129%;
         padding: 15px 15px;
         display: inline-block;
+        position: relative;
     }
     .nav-menu-item:hover{
         color: #3350E9;
@@ -213,6 +214,7 @@ height: 34px;
     .mob-icon-link:hover .icon-social-header,.mob-icon-link:focus .icon-social-header{
         fill: #3350E9;
         transition: transform 0.3s ease;
+        
     }
     .current::after{
         content: '';
@@ -221,13 +223,17 @@ height: 34px;
         height: 8px;
         border-radius: 50%;
         background-color: #3350E9;
-        margin-top: 2px;
+        position: absolute;
+        bottom: 5px;
+        /* opacity: 0; */
+        
     }
     .current{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+    
 }
 
 
