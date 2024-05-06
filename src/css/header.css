@@ -15,6 +15,10 @@
     font-size: 20px;
     letter-spacing: 0.02em;
     color: #0C0C0C;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.logo-brand-header:hover {
+    transform: scale(1.1);
 }
 
 .nav-menu {
@@ -53,6 +57,8 @@
     display: flex;
     flex-direction: column;
     transform: translate(100%);
+    z-index: 999;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -93,6 +99,7 @@
     font-size: 14px;
     line-height: 129%;
     text-align: center;
+    margin-top: auto;
 }
 
 .mob-nav-menu li{
@@ -117,11 +124,12 @@ height: 34px;
 
 
 .icon-list-box{
-    position: absolute;
+    /* position: absolute; */
     bottom: 24px;
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: auto;
 }
 .mob-current{
     display: flex;
@@ -145,6 +153,7 @@ height: 34px;
         padding-top: 26px;
         
     }
+  
     .mobile-menu{
         width: 330px;
     }
@@ -162,6 +171,8 @@ height: 34px;
     .nav-menu{
         display: flex;
         gap: 40px;
+        
+        
     }
     .address-list{
         display: flex;
@@ -171,6 +182,12 @@ height: 34px;
         font-weight: 500;
         font-size: 14px;
         line-height: 129%;
+        padding: 15px 15px;
+        display: inline-block;
+        position: relative;
+    }
+    .nav-menu-item:hover{
+        color: #3350E9;
     }
 
     .nav{
@@ -191,10 +208,13 @@ height: 34px;
         justify-content: center;
         border: 1px solid rgba(12, 12, 12, 0.1);
         border-radius: 10px;
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .mob-icon-link:hover .icon-social-header,.mob-icon-link:focus .icon-social-header{
         fill: #3350E9;
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
     }
     .current::after{
         content: '';
@@ -203,13 +223,17 @@ height: 34px;
         height: 8px;
         border-radius: 50%;
         background-color: #3350E9;
-        margin-top: 2px;
+        position: absolute;
+        bottom: 5px;
+        /* opacity: 0; */
+        
     }
     .current{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+    
 }
 
 
