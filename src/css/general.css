@@ -2,6 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  position: relative;
   font-family: 'Gilroy', sans-serif;
   background-color: #fbfbfb;
 }
