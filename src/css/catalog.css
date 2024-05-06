@@ -1,41 +1,21 @@
-.catalog-section {
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.catalog-title {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 1;
-  letter-spacing: -0.02em;
-  color: #0c0c0c;
-  margin-bottom: 24px;
-}
-
 .catalog-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 20px;
   margin-bottom: 40px;
 }
 
 .catalog-item {
-  width: 335px;
-  height: 364px;
+  width: 100%;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: 335px;
-  height: 364px;
   background-color: #f3f3f3;
   padding: 24px 28px;
-  margin: 0 auto;
 }
 .catalog-mob-none {
   display: none;
 }
 
-.catalog-picture {
-}
 
 .catalog-image {
   margin: 0 auto;
@@ -66,7 +46,7 @@
 .catalog-button {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   text-align: center;
   color: #fbfbfb;
   border-radius: 16px;
@@ -79,19 +59,11 @@
 }
 
 @media screen and (min-width: 768px) {
-  .catalog-section {
-    width: 768px;
-    padding: 0 32px;
-  }
-
-  .catalog-title {
-    font-size: 48px;
-    line-height: 0.92;
-    margin-bottom: 40px;
-  }
-
   .catalog-list {
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 32px 16px;
+    margin-bottom: 0;
   }
 
   .catalog-item {
@@ -119,15 +91,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .catalog-section {
-    width: 1280px;
-    padding: 0 65px;
-  }
-
-  .catalog-list {
-    gap: 32px 23px;
-  }
-
   .catalog-image {
     width: 292px;
     height: 292px;
@@ -136,5 +99,6 @@
   .catalog-item {
     width: 368px;
     height: 414px;
+    gap: 32px 23px;
   }
 }
