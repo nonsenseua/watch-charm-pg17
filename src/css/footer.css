@@ -11,6 +11,14 @@
 .soc-media-items:active .icon-footer{
   opacity: 1;
 }
+.footer-items:hover,
+.footer-items:focus,
+.footer-items:active{
+  color:rgba(251, 251, 251, 0.5);
+}
+.footer-items{
+  transition: color,border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .footer-content {
   font-family: 'Gilroy', sans-serif;
   border-radius: 30px;
@@ -49,10 +57,6 @@
 
 .tel-footer-container {
   display: block;
-  border: 1px solid rgba(251, 251, 251, 0.2);
-  border-radius: 16px;
-  width: 152px;
-  height: 44px;
   margin-bottom: 40px;
 }
 .tel-footer{
@@ -64,6 +68,17 @@ text-transform: uppercase;
 text-align: center;
 color: #fbfbfb;
 padding-top: 14px;
+border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 16px;
+  width: 152px;
+  height: 44px;
+  transition: color, border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.tel-footer:hover,
+.tel-footer:focus,
+.tel-footer:active{
+  color: rgba(251, 251, 251, 0.6);
+  border-color: #fff;
 }
 .slogan {
     display: block;
@@ -118,13 +133,16 @@ margin-top: 24px;
   display: flex;
   flex-wrap: wrap;
   row-gap: 8px;
-  border-top: 1px solid;
-  border-color: rgba(251, 251, 251, 0.1);
 }
 .terms-footer {
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+.privacy-items-footer:hover,
+.privacy-items-footer:focus,
+.privacy-items-footer:active{
+  color: #fff;
 }
 .privacy-items-footer {
 font-weight: 500;
@@ -133,6 +151,7 @@ line-height: 1.4;
 letter-spacing: -0.02em;
 text-align: right;
 color: rgba(251, 251, 251, 0.5);
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .group{
   display: flex;
@@ -165,6 +184,12 @@ color: rgba(251, 251, 251, 0.5);
     text-align: center;
     margin: 86px 50px 0;
   }
+  .footer-items:hover,
+.footer-items:focus,
+.footer-items:active{
+  border-bottom: 1px solid;
+  border-radius: 5px;
+}
   .footer-links{
     flex-wrap: nowrap;
     gap: 19px;
@@ -217,10 +242,11 @@ letter-spacing: -0.02em;
 .tel-footer{
 font-size: 14px;
 line-height: 1.28;
+width: 160px;
+height: 48px;
 }
 .tel-footer-container{
-  width: 160px;
-  height: 48px;
+ 
 }
 }
 @media screen and (min-width: 1280px) {
@@ -246,13 +272,13 @@ line-height: 1.28;
     display: flex;
   }
   .tel-footer-container{
-    width: 160px;
-    height: 48px;
     order: 3;
   }
   .tel-footer{
 font-size: 14px;
 line-height: 1.28;
+width: 160px;
+    height: 48px;
   }
   .adres-links{
     justify-content: space-between;
