@@ -15,6 +15,10 @@
     font-size: 20px;
     letter-spacing: 0.02em;
     color: #0C0C0C;
+    transition: transform 0.3s ease;
+}
+.logo-brand-header:hover {
+    transform: scale(1.1);
 }
 
 .nav-menu {
@@ -53,6 +57,7 @@
     display: flex;
     flex-direction: column;
     transform: translate(100%);
+    transition: transform 0.3s ease;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -93,6 +98,7 @@
     font-size: 14px;
     line-height: 129%;
     text-align: center;
+    margin-top: auto;
 }
 
 .mob-nav-menu li{
@@ -117,11 +123,12 @@ height: 34px;
 
 
 .icon-list-box{
-    position: absolute;
+    /* position: absolute; */
     bottom: 24px;
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: auto;
 }
 .mob-current{
     display: flex;
@@ -162,6 +169,7 @@ height: 34px;
     .nav-menu{
         display: flex;
         gap: 40px;
+        
     }
     .address-list{
         display: flex;
@@ -171,6 +179,11 @@ height: 34px;
         font-weight: 500;
         font-size: 14px;
         line-height: 129%;
+        padding: 15px 15px;
+        display: inline-block;
+    }
+    .nav-menu-item:hover{
+        color: #3350E9;
     }
 
     .nav{
@@ -191,10 +204,12 @@ height: 34px;
         justify-content: center;
         border: 1px solid rgba(12, 12, 12, 0.1);
         border-radius: 10px;
+        transition: transform 0.3s ease;
     }
 
     .mob-icon-link:hover .icon-social-header,.mob-icon-link:focus .icon-social-header{
         fill: #3350E9;
+        transition: transform 0.3s ease;
     }
     .current::after{
         content: '';
