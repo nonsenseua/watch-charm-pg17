@@ -153,6 +153,7 @@ height: 34px;
         padding-top: 26px;
         
     }
+  
     .mobile-menu{
         width: 330px;
     }
@@ -170,6 +171,7 @@ height: 34px;
     .nav-menu{
         display: flex;
         gap: 40px;
+        
         
     }
     .address-list{
