@@ -108,6 +108,21 @@
 .mob-nav-menu li:last-child{
     margin-bottom: 0;
 }
+.mob-nav-menu-item {
+    position: relative;
+}
+.mob-nav-menu-item:hover::after,
+    .mob-nav-menu-item:focus::after,
+    .mob-nav-menu-item:active::after {
+        content: '';
+        display: block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #3350E9;
+        position: absolute;
+        bottom: -10px;
+      }
 .mob-icon-list{
     display: flex;
     gap: 10px;
@@ -141,9 +156,11 @@ height: 34px;
  width: 8px;
  height: 8px;
  border-radius: 50%;
- display: block;
+ display: none;
  background-color: #3350E9;
  margin-top: 2px;
+ bottom: 5px;
+ position: absolute;
 }
 
 
@@ -224,7 +241,7 @@ height: 34px;
     }
     .current::after{
         content: '';
-        display: block;
+        display: none;
         width: 8px;
         height: 8px;
         border-radius: 50%;
@@ -239,6 +256,18 @@ height: 34px;
         flex-direction: column;
         align-items: center;
     }
+    .nav-menu-item:hover::after,
+    .nav-menu-item:focus::after,
+    .nav-menu-item:active::after {
+        content: '';
+        display: block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #3350E9;
+        position: absolute;
+        bottom: 5px;
+      }
     
 }
 
