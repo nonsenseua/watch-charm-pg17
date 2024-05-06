@@ -170,6 +170,7 @@
     }
 
     .contact-grad{
+        border-radius: 50px;
 
     }
     .contact-gradient {
@@ -197,6 +198,10 @@
 
     .contact-grad {
         
+    }
+
+    .contact-gradient {
+        border-radius: 50px;
     }
     
 }
