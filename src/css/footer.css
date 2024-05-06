@@ -246,11 +246,13 @@ line-height: 1.28;
 width: 160px;
 height: 48px;
 }
-.tel-footer-container{
- 
-}
+
 }
 @media screen and (min-width: 1280px) {
+  .footer-container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
   .footer-content{
     border-radius: 30px;
     padding: 40px 40px 28px 40px;
