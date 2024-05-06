@@ -185,7 +185,10 @@ height: 34px;
         padding: 15px 15px;
         display: inline-block;
         position: relative;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
     }
+    
     .nav-menu-item:hover{
         color: #3350E9;
     }
@@ -208,12 +211,15 @@ height: 34px;
         justify-content: center;
         border: 1px solid rgba(12, 12, 12, 0.1);
         border-radius: 10px;
-        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+    }
+    .icon-social-header{
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .mob-icon-link:hover .icon-social-header,.mob-icon-link:focus .icon-social-header{
         fill: #3350E9;
-        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
     }
     .current::after{
