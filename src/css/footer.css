@@ -5,11 +5,21 @@
 .icon-footer{
   fill: #fff;
   opacity: 0.8;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc-media-items:hover .icon-footer,
 .soc-media-items:focus .icon-footer,
 .soc-media-items:active .icon-footer{
   opacity: 1;
+}
+.footer-items:hover,
+.footer-items:focus,
+.footer-items:active{
+  color:rgba(251, 251, 251, 0.5);
+  transform: scale(1.1);
+}
+.footer-items{
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-content {
   font-family: 'Gilroy', sans-serif;
@@ -49,10 +59,6 @@
 
 .tel-footer-container {
   display: block;
-  border: 1px solid rgba(251, 251, 251, 0.2);
-  border-radius: 16px;
-  width: 152px;
-  height: 44px;
   margin-bottom: 40px;
 }
 .tel-footer{
@@ -64,6 +70,18 @@ text-transform: uppercase;
 text-align: center;
 color: #fbfbfb;
 padding-top: 14px;
+border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 16px;
+  width: 152px;
+  height: 44px;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.tel-footer:hover,
+.tel-footer:focus,
+.tel-footer:active{
+  border-color: #fff;
+  background-color: #fbfbfb;
+  color: #0c0c0c;
 }
 .slogan {
     display: block;
@@ -87,6 +105,7 @@ font-weight: 500;
 font-size: 12px;
 line-height: 1.33;
 text-align: center;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-adres {
 font-weight: 500;
@@ -119,12 +138,17 @@ margin-top: 24px;
   flex-wrap: wrap;
   row-gap: 8px;
   border-top: 1px solid;
-  border-color: rgba(251, 251, 251, 0.1);
+  border-color: #fbfbfb1a;
 }
 .terms-footer {
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+.privacy-items-footer:hover,
+.privacy-items-footer:focus,
+.privacy-items-footer:active{
+  color: #fff;
 }
 .privacy-items-footer {
 font-weight: 500;
@@ -133,6 +157,7 @@ line-height: 1.4;
 letter-spacing: -0.02em;
 text-align: right;
 color: rgba(251, 251, 251, 0.5);
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .group{
   display: flex;
@@ -177,6 +202,7 @@ color: rgba(251, 251, 251, 0.5);
 font-size: 14px;
 line-height: 1.28;
 text-align: center;
+padding-bottom: 15px;
 }
 .footer-adres{
     max-width: 162px;
@@ -217,13 +243,16 @@ letter-spacing: -0.02em;
 .tel-footer{
 font-size: 14px;
 line-height: 1.28;
+width: 160px;
+height: 48px;
 }
-.tel-footer-container{
-  width: 160px;
-  height: 48px;
-}
+
 }
 @media screen and (min-width: 1280px) {
+  .footer-container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
   .footer-content{
     border-radius: 30px;
     padding: 40px 40px 28px 40px;
@@ -246,13 +275,13 @@ line-height: 1.28;
     display: flex;
   }
   .tel-footer-container{
-    width: 160px;
-    height: 48px;
     order: 3;
   }
   .tel-footer{
 font-size: 14px;
 line-height: 1.28;
+width: 160px;
+    height: 48px;
   }
   .adres-links{
     justify-content: space-between;
