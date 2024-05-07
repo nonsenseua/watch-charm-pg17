@@ -23,6 +23,14 @@
   padding: 13px 14px;
 }
 
+.underchief-img {
+  transition: transform 0.25s ease;
+}
+
+.underchief-img:hover {
+  transform: scale(1.2);
+}
+
 .chief {
   display: flex;
   justify-content: center;
@@ -31,6 +39,14 @@
   border-radius: 30px;
   background-color: #f3f3f3;
   padding: 50px;
+}
+
+.chief-img {
+  transition: transform 0.25s ease;
+}
+
+.chief-img:hover {
+  transform: scale(1.1);
 }
 
 .sale-description {
